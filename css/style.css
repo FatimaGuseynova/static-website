@@ -512,3 +512,22 @@ i[type="1"]:hover {
     color: #6c757d;
     font: 400 15px arial;
 }
+
+/* about us */
+
+.article[type="center"]{
+    text-align: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.article p{
+    font: 400 17px arial ;
+    color: #fff;
+}
+
+.card-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
