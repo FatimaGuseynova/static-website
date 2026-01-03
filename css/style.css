@@ -3,6 +3,11 @@
     margin: 0 auto;
 }
 
+h1, h2, h3, h4, h5, h6, p, a, span, li {
+    font-family: "Work Sans", Helvetica, Arial, sans-serif!important;
+}
+
+
 /* background image */
 .bg-image {
     background: linear-gradient(#242222b7, #1a18186a), url("../img/hero_1.jpg")center/cover;
@@ -76,12 +81,18 @@
 .video {
     display: flex;
     justify-content: space-between;
-    width: 130px;
+    width: 145px;
     align-items: center;
 }
 
+.border {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+
 h1 {
-    font: 700 60px arial;
+    font: 600 60px arial;
     color: #fff;
     padding-bottom: 30px;
 }
@@ -193,7 +204,7 @@ h1 {
 
 .images1 {
     display: flex;
-        display: flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
 
@@ -299,7 +310,7 @@ i[type="1"]:hover {
 }
 
 .third-section1 h2 {
-    font: 700 40px arial;
+    font: 700 50px arial;
     color: #000;
     margin: 15px 0 40px 0;
 }
@@ -361,21 +372,21 @@ i[type="1"]:hover {
     margin: 100px 0;
 }
 
-.image4{
+.image4 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     height: 500px;
     width: 300px;
-    
+
 }
 
 .image4 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
+
 }
 
 .about-image {
@@ -420,7 +431,12 @@ i[type="1"]:hover {
 
 /* footer1 */
 
-.inline{
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inline {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -519,19 +535,43 @@ i[type="1"]:hover {
 
 /* about us */
 
-.article[type="center"]{
+.article[type="center"] {
     text-align: center;
     justify-content: center;
-    width: 100vw;
+    width: 90vw;
 }
 
-.article p{
-    font: 400 17px arial ;
+.article p {
+    font: 400 17px arial;
     color: #fff;
 }
 
-.card-icons{
+.card-icons {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.cardi {
+    text-align: center;
+    gap: 20px;
+}
+
+.cardi i {
+    color: #ff9a42;
+    border: 1pcx solid #ffd270;
+    background-color: #ffd270;
+    border-radius: 50%;
+
+}
+
+.cardi h3 {
+    font: 400 18px arial;
+    margin: 10px 0;
+}
+
+.cardi p {
+    font: 400 15px arial;
+    color: #1e1e1e;
+    margin: 10px 0;
 }
