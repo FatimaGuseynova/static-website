@@ -43,7 +43,7 @@ Social Integration: Standardized social icon set in the footer with circular bac
 Repository Setup:
 
 ## Bash
-git clone https://github.com/FatimaGueynova/static-website.git
+git clone[ https://github.com/FatimaGueynova/static-website.git](https://github.com/FatimaGuseynova/static-website/)
 Environment: No compilation or build steps required. The project is designed for static serving.
 
 Observation: Open index.html via a local environment to verify relative pathing between the About and Services modules.
